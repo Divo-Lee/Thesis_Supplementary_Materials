@@ -1,5 +1,5 @@
 # PhD Thesis Online Supplementary Materials
-### R Codes and Supplementary Tables
+### R Codes and Related Supplementary Materials
 
 Hongxiang Li
 
