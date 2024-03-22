@@ -413,7 +413,6 @@ Unique_SIEVE_AD
 
 
 ## High confidence genes
-#AD_union_DE_table <- read.csv('C:/Users/Divo Lee/Desktop/SIEVE Package/Mayo_AD_SIEVE/Supplementary_Tables_SIEVE/DE_genes_union_AD (supplementary table 2).csv', header = T, check.names = TRUE, row.names = 1)
 overlap_DE_genes_AD <- AD_union_DE_table[(AD_union_DE_table$SIEVE_indicator == 1 &
                                           AD_union_DE_table$edgeR_indicator == 1 &
                                           AD_union_DE_table$DESeq2_indicator == 1 &
