@@ -726,7 +726,7 @@ full_table <- clrSIEVE_result$clrSIEVE_tests
 # bs: biological and statistical significance
 # de_bs, dv_bs, ds_bs are indicators by using Xiao et al (2014) method
 full_table$de_bs <- as.integer(criteria_clrDE)
-full_table$dv_bs <- as.integer(dv_criteria)
+full_table$dv_bs <- as.integer(SIEVE_dv_criteria)
 full_table$ds_bs <- as.integer(ds_criteria)
 
 full_table <- full_table[order(full_table$DS), ] # ordered by DS
